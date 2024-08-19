@@ -2,7 +2,9 @@
 layout: default
 ---
 
-# <img src="Italo-99_picture.jpg" width="215" height="260">
+# <div style="text-align: center;">
+  <img src="Italo-99_picture.jpg" style="width:215px; height:260px;">
+</div>
 [Linkedin Profile](linkedin.com/in/italo-almirante-62431a216)
 
 # Bio
@@ -19,7 +21,7 @@ My public projects (available at [GitHub Profile](https://github.com/Italo-99)).
 - [Cables detection](https://github.com/Italo-99/cables_detection)
 
 # Papers
-[Simple Strategy for Torque Ripple Minimization in Switched Reluctance Motor Drives](https://doi.org/10.3390/en16196885)
+o [Simple Strategy for Torque Ripple Minimization in Switched Reluctance Motor Drives](https://doi.org/10.3390/en16196885)
 
 # History
 - **2021**
