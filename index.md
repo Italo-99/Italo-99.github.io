@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# ![My Profile Picture](Italo-99_picture.jpg)
+# <img src="Italo-99_picture.jpg" width="215" height="260">
 [Linkedin Profile](linkedin.com/in/italo-almirante-62431a216)
 
 # Bio
