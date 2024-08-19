@@ -10,6 +10,7 @@ layout: default
 
 Hello! I'm **Italo Almirante**, a passionate control software developer, expert in Robotics & AI.
 I'm a Research Fellow at the ARS Control Laboratory, Dismi, Unimore (see at [ARS Control Lab](https://www.dismi.unimore.it/it/ricerca/laboratori-di-ricerca/laboratorio-di-automazione-robotica-e-controllo-di-sistemi-arscontrol)).
+
 [Linkedin Profile](linkedin.com/in/italo-almirante-62431a216) available. 
 
 I am a member of ProjectRED rover team (see at [ProjectRED](https://projectred.it/)), competing in the [European Rover Challenge](https://roverchallenge.eu/). Certifications available at [ERC Certifications](https://roverchallenge.eu/certificates/).  
