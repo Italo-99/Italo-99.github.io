@@ -2,8 +2,8 @@
 layout: default
 ---
 
-# <div style="text-align: center;">
-  <img src="Italo-99_picture.jpg" style="width:215px; height:260px;">
+<div style="text-align: center;">
+  <img src="Italo-99_picture.jpg" style="width:300px; height:300px; border-radius: 20%;">
 </div>
 [Linkedin Profile](linkedin.com/in/italo-almirante-62431a216)
 
