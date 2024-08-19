@@ -2,7 +2,6 @@
 layout: default
 ---
 
-![Profile Picture](Profile_Picture.png)
 [Linkedin Profile](linkedin.com/in/italo-almirante-62431a216)
 
 # Bio
