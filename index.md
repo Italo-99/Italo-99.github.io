@@ -21,7 +21,7 @@ My public projects (available at [GitHub Profile](https://github.com/Italo-99)).
 - [Cables detection](https://github.com/Italo-99/cables_detection)
 
 # Papers
-o [Simple Strategy for Torque Ripple Minimization in Switched Reluctance Motor Drives](https://doi.org/10.3390/en16196885)
+- [Simple Strategy for Torque Ripple Minimization in Switched Reluctance Motor Drives](https://doi.org/10.3390/en16196885)
 
 # History
 - **2021**
