@@ -9,7 +9,7 @@ layout: default
 # Bio
 
 Hello! I'm **Italo Almirante**, a passionate control software developer, expert in Robotics & AI.
-I'm a Research Fellow at the ARS Control Laboratory, Dismi, Unimore (see my academic profilge at [ARS Control Lab](https://www.arscontrol.unimore.it/italo-almirante/)).
+I'm a Research Fellow at the ARS Control Laboratory, Dismi, Unimore (see my academic profile at [ARS Control Lab](https://www.arscontrol.unimore.it/italo-almirante/)).
 
 [Linkedin Profile](linkedin.com/in/italo-almirante-62431a216) available. 
 
