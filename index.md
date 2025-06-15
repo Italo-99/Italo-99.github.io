@@ -13,7 +13,7 @@ I'm a PhD at the ARS Control Laboratory, Dismi, Unimore.
 
 My main activity is related to vehicles fleet traffic optimization, deformable objects manipulation and robots control using ROS framework. Goal of my research project is to search for a seamless integration of AI into advanced control algorithms, including Computer Vision and Large Language Model, which can help the interactions with human operators in complex environments, e.g. when layout changes, unexpected events occur or new obstacles are introduced.
 
-I am a member of ProjectRED rover team (see at [ProjectRED](https://projectred.it/)), competing in the [European Rover Challenge](https://roverchallenge.eu/).  
+I am a member of ProjectRED rover team (see at [ProjectRED Website Page](https://projectred.it/)), competing in the [European Rover Challenge](https://roverchallenge.eu/).  
 My certifications available at the [ERC Certifications website](https://roverchallenge.eu/certificates/).
 
 My public projects are available at my [GitHub Profile](https://github.com/Italo-99).  
@@ -45,4 +45,4 @@ You can reach me or learn more about my work through the following:
 
 - **Email**: [italo.almirante@unimore.it](mailto:italo.almirante@unimore.it)  
 - **Academic Profile**: [ARS Control Lab](https://www.arscontrol.unimore.it/italo-almirante/)  
-- **LinkedIn**: [linkedin.com/in/italo-almirante-62431a216](https://www.linkedin.com/in/italo-almirante-62431a216/)
+- **LinkedIn**: [Personal Profile](https://www.linkedin.com/in/italo-almirante-62431a216/)
