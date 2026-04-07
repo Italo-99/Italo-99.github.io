@@ -1,48 +1,192 @@
 ---
 layout: default
+title: Italo Almirante
 ---
 
-<div style="text-align: center;">
-  <img src="Italo-99_picture.jpg" style="width:250px; height:280px; border-radius: 20%;">
+<!--
+  Home page (English)
+  Notes:
+  - Keep this page short and visual.
+  - Detailed technical content lives in /projects/*.md.
+  - Cards can be duplicated or reordered without touching the overall layout.
+-->
+
+<div class="lang-switch">
+  <a class="button-link" href="./it.html">Italiano</a>
+  <a class="button-link" href="./projects.html">Projects</a>
+  <a class="button-link" href="./news.html">News</a>
+  <a class="button-link" href="./publications.html">Publications</a>
 </div>
 
-# Bio
+<section class="hero-grid">
+  <div>
+    <p class="eyebrow">Robotics portfolio</p>
+    <h1 class="hero-title">Italo Almirante</h1>
+    <p class="hero-subtitle">PhD Researcher in Robotics</p>
+    <p class="hero-text">
+      I design and build robotic systems across the full engineering stack, from embedded control and communication layers to autonomous navigation, manipulation, simulation, and multi-robot planning.
+    </p>
+    <p class="hero-text">
+      My work combines hands-on engineering, system integration, and research on robust autonomy for industrial and field robotics, with a strong focus on mobile manipulation, warehouse coordination, and space robotics.
+    </p>
+    <div class="hero-actions">
+      <a class="button-link button-link-primary" href="./projects.html">Explore projects</a>
+      <a class="button-link" href="./news.html">Research updates</a>
+    </div>
+  </div>
+  <div class="hero-photo-wrap">
+    <img class="hero-photo" src="./media/Italo-99_picture.jpg" alt="Italo Almirante portrait">
+  </div>
+</section>
 
-Hello! I'm **Italo Almirante**, a passionate control software developer, expert in Robotics & AI.  
-I'm a PhD at the ARS Control Laboratory, Dismi, Unimore.  
+## What I work on
 
-My main activity is related to vehicles fleet traffic optimization, deformable objects manipulation and robots control using ROS framework. Goal of my research project is to search for a seamless integration of AI into advanced control algorithms, including Computer Vision and Large Language Model, which can help the interactions with human operators in complex environments, e.g. when layout changes, unexpected events occur or new obstacles are introduced.
+<div class="feature-grid">
+  <div class="feature-card">
+    <h3>Multi-robot autonomy</h3>
+    <p>Scalable planning, robust replanning, fleet coordination, and simulation frameworks for dynamic warehouse scenarios.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Mobile manipulation</h3>
+    <p>Perception-driven manipulation of deformable objects, force-aware interaction, and reusable manipulation software architectures.</p>
+  </div>
+  <div class="feature-card">
+    <h3>Space robotics systems</h3>
+    <p>Autonomous rover subsystems, manipulator integration, digital twins, and technical leadership for multidisciplinary development.</p>
+  </div>
+</div>
 
-I am a member of ProjectRED rover team (see at [ProjectRED Website Page](https://projectred.it/)), competing in the [European Rover Challenge](https://roverchallenge.eu/).  
-My certifications available at the [ERC Certifications website](https://roverchallenge.eu/certificates/).
+## Selected project highlights
 
-My public projects are available at my [GitHub Profile](https://github.com/Italo-99).  
-One of my private projects, the GitHub repository _manipulators_ (global planner for manipulators of any kind), is open for collaborations.
+<!--
+  Home cards are teasers only.
+  Detailed technical descriptions are intentionally moved to secondary pages.
+-->
+<div class="project-grid project-grid-3">
+  <a class="project-card" href="./projects/mapf.html">
+    <img src="./media/mapf/mapf_sim.gif" alt="MAPF warehouse simulation GIF">
+    <!-- Optional MP4 version, kept here for future comparison.
+    <video autoplay loop muted playsinline>
+      <source src="./media/mapf/mapf_sim.mp4" type="video/mp4">
+    </video>
+    -->
+    <div class="project-card-body">
+      <p class="card-kicker">Research</p>
+      <h3>Multi-Robot Planning</h3>
+      <p>C++ and ROS2 framework for large-scale warehouse coordination, dynamic replanning, and robust autonomy.</p>
+    </div>
+  </a>
 
-# Papers
-- [Simple Strategy for Torque Ripple Minimization in Switched Reluctance Motor Drives](https://doi.org/10.3390/en16196885)
+  <a class="project-card" href="./projects/deformable.html#bags">
+    <img src="./media/bags/bags_grasping.png" alt="Mobile manipulation of deformable bags">
+    <div class="project-card-body">
+      <p class="card-kicker">Research</p>
+      <h3>Deformable Object Manipulation</h3>
+      <p>Perception, grasping, co-manipulation, and force-aware interaction with mobile manipulators.</p>
+    </div>
+  </a>
 
-# History
-- **2021**
-  - Bachelor's Degree in Mechatronics Engineering.
-- **2022**
-  - Participation to ERC 2022, competing in Remote and OnSite formulas. Results: 3rd place Remote. My role: control software developer of microcontrollers and robotic platform.
-- **2023**
-  - Publishing first paper, "Simple Strategy for Torque Ripple Minimization in Switched Reluctance Motor Drives".
-  - Participation to ERC 2023, competing in Remote and OnSite formulas. Results: 3rd place Remote, 9th place OnSite. My role: Project Manager.
-- **2024**
-  - Master's Degree in Mechatronics Engineering.
-  - Starting Research Fellow. My role: control software developer of human-robot interaction strategies.
-  - Participation to ERC 2024, competing in the OnSite formula. Results: 21th place. My role: Robotics expert advisor.
-  - Starting PhD. My role: studying novel algorithms for the optimization of the interaction and motion tasks of robots fleet.
-- **2025**
-  - Industrial Innovation Engineering PhD Course, Unimore (DISMI). Main research topics: Efficient Multi-Robot Coordination, Robust pHRI with Mobile Manipulators.
-  - Robotics supervisor at ProjectRED. 3rd place at Rover Traff 2025.
+  <a class="project-card" href="./projects/deformable.html#dlo">
+    <img src="./media/dlo/real_grabbing_pose.jpg" alt="Cable grasping setup">
+    <div class="project-card-body">
+      <p class="card-kicker">Thesis foundations</p>
+      <h3>DLO Perception and Grasping</h3>
+      <p>ROS-based cable segmentation, 3D pose estimation, CoppeliaSim validation, and sim-to-real grasp execution.</p>
+    </div>
+  </a>
 
-# Contacts
+  <a class="project-card" href="./projects/rover.html#navigation">
+    <img src="./media/rover/rover_unity.png" alt="Unity digital twin of rover">
+    <div class="project-card-body">
+      <p class="card-kicker">ProjectRED</p>
+      <h3>Rover Navigation and Digital Twin</h3>
+      <p>Autonomous navigation, localization, obstacle handling, and ROS2 plus Unity simulation workflows.</p>
+    </div>
+  </a>
 
-You can reach me or learn more about my work through the following:
+  <a class="project-card" href="./projects/rover.html#manipulation">
+    <img src="./media/rover/probing_rover_real.png" alt="Rover robotic arm probing task">
+    <div class="project-card-body">
+      <p class="card-kicker">ProjectRED</p>
+      <h3>Rover Arm and Sampling</h3>
+      <p>Manipulator control, probing, deep sampling, subsystem integration, and field-oriented robotic engineering.</p>
+    </div>
+  </a>
 
-- **Email**: [italo.almirante@unimore.it](mailto:italo.almirante@unimore.it)  
-- **Academic Profile**: [ARS Control Lab](https://www.arscontrol.unimore.it/italo-almirante/)  
-- **LinkedIn**: [Personal Profile](https://www.linkedin.com/in/italo-almirante-62431a216/)
+  <a class="project-card" href="./projects/manipulator-framework.html">
+    <img src="./media/arm_rover/ur_manipulators.png" alt="Manipulator framework teaser">
+    <div class="project-card-body">
+      <p class="card-kicker">Software infrastructure</p>
+      <h3>Manipulator Framework</h3>
+      <p>Reusable planning and control software for manipulators, evolved from ROS1 prototypes to ROS2-ready architectures.</p>
+    </div>
+  </a>
+</div>
+
+## Engineering profile
+
+<div class="metrics-row">
+  <div class="metric-card">
+    <strong>250+</strong>
+    <span>robots handled in warehouse-scale simulation</span>
+  </div>
+  <div class="metric-card">
+    <strong>&lt; 100 ms</strong>
+    <span>replanning target in dynamic fleet scenarios</span>
+  </div>
+  <div class="metric-card">
+    <strong>Full stack</strong>
+    <span>embedded, control, perception, planning, simulation</span>
+  </div>
+</div>
+
+<div class="stack-grid">
+  <div>
+    <h3>Core domains</h3>
+    <ul>
+      <li>Multi-agent and multi-robot coordination</li>
+      <li>Robotic manipulation and pHRI</li>
+      <li>Autonomous navigation and digital twins</li>
+      <li>Perception-driven robotics and AI integration</li>
+    </ul>
+  </div>
+  <div>
+    <h3>Main tools</h3>
+    <ul>
+      <li>ROS1, ROS2, MoveIt, Nav2</li>
+      <li>C++, Python, MATLAB</li>
+      <li>CoppeliaSim, Unity, Gazebo, MuJoCo</li>
+      <li>STM32, CAN, CANopen, RGB-D perception</li>
+    </ul>
+  </div>
+</div>
+
+## Explore the site
+
+<div class="feature-grid">
+  <div class="feature-card">
+    <h3><a href="./projects.html">Projects</a></h3>
+    <p>Detailed pages about research, software, and integrated robotic systems.</p>
+  </div>
+  <div class="feature-card">
+    <h3><a href="./publications.html">Publications</a></h3>
+    <p>A growing section for papers, research outputs, and technical references.</p>
+  </div>
+  <div class="feature-card">
+    <h3><a href="./news.html">News and updates</a></h3>
+    <p>A dedicated page for future research notes, milestones, opportunities, and announcements.</p>
+  </div>
+</div>
+
+---
+
+## Links
+
+<div class="link-pills">
+  <a href="https://www.linkedin.com/in/italo-almirante-62431a216/">LinkedIn</a>
+  <a href="https://github.com/Italo-99">GitHub</a>
+  <a href="https://scholar.google.com/citations?user=Ap9R8foAAAAJ">Google Scholar</a>
+  <a href="https://www.arscontrol.unimore.it/italo-almirante/">ARS Control Lab</a>
+  <a href="https://projectred.it/">ProjectRED</a>
+  <a href="https://simod.eu/">SiMOD</a>
+</div>
