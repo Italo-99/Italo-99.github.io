@@ -119,4 +119,12 @@ Il modulo di segmentazione dei cavi si basava su metodi state-of-the-art per la 
 
 ---
 
+## Links
+
+<div class="link-pills">
+  <a href="https://simod.eu/">SiMOD</a>
+</div>
+
+---
+
 <a class="button-link" href="../progetti.html">Torna ai progetti</a>

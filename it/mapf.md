@@ -33,7 +33,7 @@ Questo lavoro è interamente mio sul piano della progettazione di sistema e dell
 ## Elementi tecnici principali
 
 - Simulazioni di flotte con oltre 250 robot
-- Target di replanning sotto i 100 ms in scenari dinamici
+- Online planning sotto i 100 ms in scenari dinamici
 - Modalità di replanning event-triggered e periodica
 - Aggiornamento dinamico dei goal e replanning execution-aware
 - Gestione di conflitti e ostacoli basata su priorità

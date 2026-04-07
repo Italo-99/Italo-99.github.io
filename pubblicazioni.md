@@ -10,13 +10,11 @@ title: Pubblicazioni
 
 # Pubblicazioni
 
-Questa sezione è progettata per crescere nel tempo.
-
 <div class="feature-card publication-card">
   <h3>Simple Strategy for Torque Ripple Minimization in Switched Reluctance Motor Drives</h3>
-  <p><strong>Venue:</strong> <em>Energy</em>, MDPI, 2023</p>
+  <p><strong>Rivista:</strong> <em>Energy</em>, MDPI, 2023</p>
   <p>
-    Strategia simulation-based per l'ottimizzazione degli intervalli di alimentazione di un motore a riluttanza variabile, con l'obiettivo di ridurre il torque ripple al variare delle condizioni operative.
+    Strategia per l'ottimizzazione degli intervalli di alimentazione di un motore a riluttanza commutata, con l'obiettivo di ridurre l'oscillazione di coppia al variare delle condizioni operative. Sviluppo di un modello di controllo basato su Machine Learning, addestrato con dati simulati sul modello di una macchina con 12 poli a statore e 8 a rotore. 
   </p>
   <div class="link-pills">
     <a href="https://doi.org/10.3390/en16196885">DOI</a>

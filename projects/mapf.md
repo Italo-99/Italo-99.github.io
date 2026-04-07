@@ -11,12 +11,12 @@ title: Multi-Robot Planning
 # Multi-Robot Planning for Dynamic Warehouses
 
 <div class="project-hero-media">
-  <img src="../media/mapf/mapf_sim.gif" alt="Warehouse simulation GIF">
+  <!-- <img src="../media/mapf/mapf_sim.gif" alt="Warehouse simulation GIF"> -->
   <!-- Optional MP4 version for future tests.
+  -->
   <video autoplay loop muted playsinline>
     <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
   </video>
-  -->
 </div>
 
 ## Overview
@@ -38,7 +38,7 @@ This work is fully mine at the system-design and implementation level.
 ## Technical highlights
 
 - Fleet-scale simulations with up to 250 robots
-- Replanning targets below 100 ms in dynamic scenarios
+- Online planning below 100 ms in dynamic scenarios
 - Event-triggered and periodic replanning modes
 - Dynamic goal updates and execution-aware replanning
 - Priority-based obstacle handling and conflict management

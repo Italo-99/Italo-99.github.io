@@ -119,4 +119,12 @@ The cable segmentation module was based on state-of-the-art deformable linear ob
 
 ---
 
+## Links
+
+<div class="link-pills">
+  <a href="https://simod.eu/">SiMOD</a>
+</div>
+
+---
+
 <a class="button-link" href="../projects.html">Back to projects</a>

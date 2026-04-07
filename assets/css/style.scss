@@ -167,6 +167,9 @@
   width: 100%;
   height: 220px;
   object-fit: cover;
+  object-position: var(--media-pos-x, 50%) var(--media-pos-y, 50%);
+  transform: scale(var(--media-zoom, 1));
+  transform-origin: var(--media-origin-x, 50%) var(--media-origin-y, 50%);
   background: var(--soft-bg);
 }
 
