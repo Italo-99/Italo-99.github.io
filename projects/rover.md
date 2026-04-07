@@ -1,6 +1,6 @@
 ---
 layout: default
-title: ProjectRED Rover Systems
+title: ProjectRED Rover
 ---
 
 <div class="lang-switch">
@@ -8,14 +8,18 @@ title: ProjectRED Rover Systems
   <a class="button-link" href="../it/rover.html">Italiano</a>
 </div>
 
-# ProjectRED Rover Systems
+# ProjectRED Rover
 
-This page collects the main robotics work I carried out within ProjectRED, including technical leadership, software architecture supervision, autonomous navigation, rover manipulation, and subsystem integration.
+This page collects the main robotics work I carried out within ProjectRED, including technical and management leadership, software architecture supervision, autonomous navigation, rover manipulation, and subsystem integration.
 
 ## ProjectRED story and leadership
 
 <div class="project-hero-media">
   <img src="../media/rover/rover.jpg" alt="ProjectRED rover">
+</div>
+
+<div class="project-hero-media">
+  <img src="../media/rover/rover_marsyard.jpeg" alt="Rover in MarsYard">
 </div>
 
 I joined ProjectRED first as a control software developer, then served as Project Manager, and later continued as external advisor and robotics supervisor.
@@ -24,7 +28,7 @@ My contribution spans both engineering execution and leadership responsibilities
 
 ### Leadership and coordination scope
 
-- Team leadership for a multidisciplinary rover team
+- Team leadership for a heterogeneous team
 - Planning, task allocation, and technical supervision across software activities
 - Budget management experience during the year in which I served as team leader
 - Support to software architecture decisions and subsystem integration in later years
@@ -40,12 +44,11 @@ My contribution spans both engineering execution and leadership responsibilities
 
 ## <a id="navigation"></a>Autonomous navigation and digital twin
 
-<div class="gallery-two">
+<div class="project-hero-media">
   <img src="../media/rover/rover_unity.png" alt="Unity rover simulation">
-  <img src="../media/rover/rover_marsyard.jpeg" alt="Rover in MarsYard">
 </div>
 
-### Overview
+### Project Overview
 
 A major part of the rover work focused on autonomous navigation from simulation to field deployment.
 
@@ -57,12 +60,7 @@ I collaborated on the autonomous control architecture of the rover and supervise
 - Autonomous navigation stack with real-time obstacle handling
 - Localization pipeline combining wheel odometry, visual odometry, and landmark-based estimation
 - Simulation-to-reality consistency checks for field deployment
-- Nav2-oriented integration and custom obstacle filtering logic
-
-<div class="gallery-two">
-  <img src="../media/rover/probing_rover_unity.png" alt="Probing task in Unity">
-  <img src="../media/rover/probing_rover_real.png" alt="Probing task in real environment">
-</div>
+- Nav2-free integration and custom obstacle filtering logic
 
 <div class="link-pills">
   <a href="https://www.linkedin.com/posts/italo-almirante-62431a216_projectred-europeanroverchallenge-autonomousnavigation-activity-7388863699136094209-9TYG">Navigation post</a>
@@ -70,7 +68,7 @@ I collaborated on the autonomous control architecture of the rover and supervise
 
 ## <a id="manipulation"></a>Rover arm, probing, and deep sampling
 
-### Overview
+### Project Overview
 
 I also collaborated on the robotic arm subsystem and on the integration of science-oriented rover functionalities.
 
@@ -81,8 +79,22 @@ This includes manipulator motion, grasp execution, remote guidance for precise o
 - MoveIt2-based motion routines and trajectory planning
 - CANopen-oriented motor communication and subsystem coordination
 - Remote teleoperation for fine motion guidance
-- Probe detection and alignment support for autonomous approach
-- Integration with science and sampling workflows
+- Probe detection for autonomous approach
+
+<div class="project-hero-media">
+  <img src="../media/rover/probing_rover_unity.png" alt="Probing task in Unity">
+</div>
+
+<div class="project-hero-media" style="width:100%; height:650px; overflow:hidden;">
+  <img src="../media/rover/probing_rover_real.png"
+       alt="Probing task in real environment"
+       style="
+         width:100%;
+         height:100%;
+         object-fit:cover;
+         transform: scale(1.1) translateY(0%);
+       ">
+</div>
 
 ### Drilling and sampling subsystem
 
@@ -100,8 +112,8 @@ The rover platform also included an onboard drill and deep-sampling workflow. In
   <a href="https://roverchallenge.eu/certificate/projectred-italo-almirante-erc2024-on-site/">ERC 2024 on-site certificate</a>
   <a href="https://roverchallenge.eu/certificate/2023-onsite-projectred-italo-almirante/">ERC 2023 on-site certificate</a>
   <a href="https://roverchallenge.eu/certificate/2023-remote-projectred-italo-almirante/">ERC 2023 remote certificate</a>
-  <a href="https://projectred.it/">ProjectRED website</a>
-</div>
+  <!-- <a href="https://projectred.it/">ProjectRED</a> -->
+  <a href="https://www.dismi.unimore.it/it/didattica/progetti-gli-studenti/project-red">ProjectRED</a></div>
 
 ## Ownership note
 

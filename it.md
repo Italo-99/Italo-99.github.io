@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Italo Almirante - Italiano
+title: Italo Almirante
+description: Portfolio di robotica - sistemi multi-robot, manipolazione, controllo autonomo e ingegneria robotica integrata.
 ---
 
 <!-- Home page (Italiano) -->

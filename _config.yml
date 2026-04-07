@@ -2,7 +2,7 @@
 # If you already have a working _config.yml, merge these values carefully.
 
 title: Italo Almirante
-description: Robotics portfolio - multi-robot systems, manipulation, autonomous control, and integrated robotics engineering.
+description: Robotics portfolio - multi-robot systems, manipulation, autonomous control, integrated robotics engineering.
 show_downloads: false
 remote_theme: pages-themes/cayman@v0.2.0
 plugins:

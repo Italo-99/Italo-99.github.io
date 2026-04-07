@@ -10,11 +10,7 @@ title: Manipulator Framework
 
 # Manipulator Framework
 
-<div class="project-hero-media">
-  <img src="../media/arm_rover/ur_manipulators.png" alt="Manipulator framework with UR-based systems">
-</div>
-
-## Overview
+## Project Overview
 
 This project collects the software infrastructure I developed and extended for manipulator planning and control, starting from ROS1-based prototypes and evolving toward more modular ROS2-oriented architectures.
 
@@ -35,17 +31,19 @@ This work sits between personal software development and collaborative extension
 - Clear separation between kinematics, execution logic, and task-level control
 - Reusability across simulation and real systems
 - Easier extension toward different manipulators and mobile manipulation setups
+- Inverse and forward kinematics support
+- Real time speed control in both cartesian and joint space
 
-## Why it matters
-
-Robotic projects often fail to scale because every new manipulator or task leads to a fresh software rewrite.
-
-This framework is my answer to that problem: build a reusable backbone first, then adapt the robot-specific layers around it.
-
-<div class="gallery-two">
+<div class="project-hero-media">
   <img src="../media/arm_rover/tiago_manipulators.png" alt="TIAGo manipulation architecture">
+</div>
+<p style="text-align: center;">Manipulator functions menu with the TIAGo.</p>
+
+
+<div class="project-hero-media">
   <img src="../media/arm_rover/ur_manipulators.png" alt="UR manipulation architecture">
 </div>
+<p style="text-align: center;">Manipulator functions menu with the UR.</p>
 
 ## Public reference
 

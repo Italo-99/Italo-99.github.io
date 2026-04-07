@@ -10,42 +10,47 @@ title: Deformable Object Manipulation
 
 # Deformable Object Manipulation
 
-This page collects my work on deformable objects, from cable perception and grasping foundations to current research on mobile manipulators and co-manipulation. The most recent activities are connected to the SiMOD project.
+This page collects my work on the manipulation deformable objects, from cable perception and grasping to current research on mobile manipulators and co-manipulation. The most recent activities are connected to the SiMOD project.
 
 ## <a id="bags"></a>Mobile manipulation of deformable objects
 
-<div class="project-hero-media">
-  <img src="../media/bags/MobilePlatform_SideView.jpeg" alt="Mobile manipulator platform with UR5e on Neobotix">
-</div>
-
-### Overview
+### Project Overview
 
 Within the SiMOD project, I work on perception and manipulation pipelines for deformable objects using mobile manipulators.
 
 One representative setup combines a UR5e arm mounted on a Neobotix MPO-500 mobile base, with an Intel RealSense D435i installed near the gripper. This enables target detection, environment perception, grasp planning, and execution in cluttered and partially occluded scenarios.
 
+<div class="project-hero-media">
+  <img src="../media/bags/MobilePlatform_SideView.jpeg" alt="Mobile manipulator platform with UR5e on Neobotix">
+</div>
+
 ### My role
 
-This software work is primarily mine, excluding third-party perception models explicitly referenced where needed.
+This software work is primarily mine, excluding third-party perception models.
 
 - Perception and manipulation pipeline integration
 - Grasp execution and task-level software logic
 - System testing in simulation and on the real platform
-- Extension toward physically interactive manipulation behaviors
+- Extension toward physically interactive manipulation behaviors with force feedback
 
 ### Technical focus
 
 - Deformable object detection and localization
 - RGB-D perception for target estimation
-- Grasping of bags and soft objects on realistic surfaces
+- Grasping of bags and "soft" objects
 - Reactive manipulation under interaction constraints
 - Integration between perception, motion, and execution control
 
-<div class="gallery-three">
-  <img src="../media/bags/bags_detection_new.png" alt="Bag detection example">
+<div class="gallery-two">
+  <img src="../media/bags/bags_detection_new.png" alt="Bag detection example" style="width: min(95%, 1000px);">
   <img src="../media/bags/bags_grasping.png" alt="Bag grasping example">
-  <img src="../media/arm_rover/tiago_manipulators.png" alt="TIAGo manipulation setup">
 </div>
+
+### Co-manipulation and interaction strategy
+
+A key aspect of this line of work is co-manipulation of large deformable objects with multiple manipulators.
+
+The control logic is not just about tracking a shared path. One robot acts as the leader and autonomously decides the reference motion, while the second robot follows through force sensing and passive force-control behavior. This makes the system more tolerant to uncertainty in object deformation and interaction constraints, and it is especially useful when geometric shape alone is not enough to coordinate the task reliably.
 
 ### Related public posts
 
@@ -55,19 +60,9 @@ This software work is primarily mine, excluding third-party perception models ex
   <a href="https://simod.eu/">SiMOD project</a>
 </div>
 
-## Co-manipulation and interaction strategy
-
-A key aspect of this line of work is co-manipulation of large deformable objects with multiple manipulators.
-
-The control logic is not just about tracking a shared path. One robot acts as the leader and autonomously decides the reference motion, while the second robot follows through force sensing and passive force-control behavior. This makes the system more tolerant to uncertainty in object deformation and interaction constraints, and it is especially useful when geometric shape alone is not enough to coordinate the task reliably.
-
 ## <a id="dlo"></a>DLO perception and grasping foundations
 
-<div class="project-hero-media">
-  <img src="../media/dlo/coppelia_grabbing_pose.png" alt="Cable grasping in simulation">
-</div>
-
-### Overview
+### Project Overview
 
 This work started from my internship and master's thesis and laid the foundations for later manipulation projects.
 
@@ -75,7 +70,7 @@ I developed a ROS-based pipeline for handling deformable linear objects such as 
 
 ### What I developed
 
-- ROS1 software pipeline for the full manipulation workflow
+- ROS software pipeline for the full manipulation workflow
 - Integration between perception, 3D estimation, and manipulator execution
 - Simulation in CoppeliaSim for validation of grasp configurations
 - Real-world grasping tests on cable-like objects
@@ -92,16 +87,37 @@ I developed a ROS-based pipeline for handling deformable linear objects such as 
   <img src="../media/dlo/RealeDetection2.png" alt="Real cable detection image 2">
 </div>
 
-<div class="gallery-two">
-  <img src="../media/dlo/real_grabbing_pose.jpg" alt="Real cable grasping pose">
-  <img src="../media/dlo/coppelia_grabbing_pose.png" alt="Simulated cable grasping pose">
+<div class="gallery-two" style="display:flex; gap:10px;">
+  
+  <!-- LEFT IMAGE -->
+  <div style="width:100%; height:280px; overflow:hidden;">
+  <img src="../media/dlo/real_grabbing_pose.jpg"
+       alt="Real cable grasping pose"
+       style="
+         width:100%;
+         height:100%;
+         object-fit:cover;
+         transform: scale(1.0) translateY(0%);
+       ">
+</div>
+
+  <!-- RIGHT IMAGE -->
+  <div style="width:100%; height:100%; overflow:hidden;">
+    <img src="../media/dlo/coppelia_grabbing_pose.png"
+         alt="Simulated cable grasping pose"
+         style="
+           width:100%;
+           height:100%;
+           object-fit:cover;
+          transform: scale(1.0) translateY(0%);
+         ">
+  </div>
+
 </div>
 
 ### Note on perception models
 
-The cable segmentation module was based on state-of-the-art deformable linear object perception methods rather than a perception network developed by me. This site keeps that distinction explicit.
-
-### References and related links
+The cable segmentation module was based on state-of-the-art deformable linear object perception methods rather than a perception network developed by me. References are below.
 
 <div class="link-pills">
   <a href="https://lar-unibo.github.io/files/publications/FASTDLO_Fast_Deformable_Linear_Objects_Instance_Segmentation.pdf">FASTDLO paper</a>
@@ -116,14 +132,6 @@ The cable segmentation module was based on state-of-the-art deformable linear ob
 - Universal Robots manipulators
 - Mobile bases and integrated mobile manipulators
 - Force-aware interaction control
-
----
-
-## Links
-
-<div class="link-pills">
-  <a href="https://simod.eu/">SiMOD</a>
-</div>
 
 ---
 

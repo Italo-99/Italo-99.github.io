@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Italo Almirante
+description: Robotics portfolio - multi-robot systems, manipulation, autonomous control, and integrated robotics engineering.
 ---
 
 <!--
