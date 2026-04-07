@@ -66,12 +66,12 @@ description: Robotics portfolio - multi-robot systems, manipulation, autonomous 
 -->
 <div class="project-grid project-grid-3">
   <a class="project-card" href="./projects/mapf.html">
-    <img src="./media/mapf/mapf_sim.gif" alt="MAPF warehouse simulation GIF">
-    <!-- Optional MP4 version, kept here for future comparison.
+    <!-- <img src="./media/mapf/mapf_sim.gif" alt="MAPF warehouse simulation GIF">-->
+    <!-- Optional MP4 version, kept here for future comparison.-->
     <video autoplay loop muted playsinline>
       <source src="./media/mapf/mapf_sim.mp4" type="video/mp4">
     </video>
-    -->
+    
     <div class="project-card-body">
       <p class="card-kicker">Research</p>
       <h3>Multi-Robot Planning</h3>

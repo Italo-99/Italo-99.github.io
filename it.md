@@ -55,7 +55,9 @@ description: Portfolio di robotica - sistemi multi-robot, manipolazione, control
 
 <div class="project-grid project-grid-3">
   <a class="project-card" href="./it/mapf.html">
-    <img src="./media/mapf/mapf_sim.gif" alt="GIF simulazione MAPF warehouse">
+    <video autoplay loop muted playsinline>
+        <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
+    </video>
     <div class="project-card-body">
       <p class="card-kicker">Ricerca</p>
       <h3>Multi-Robot Planning</h3>
