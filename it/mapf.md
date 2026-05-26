@@ -10,6 +10,13 @@ title: Coordinamento Multi-Robot
 
 # Coordinamento Multi-Robot in Scenari Logistici Dinamici
 
+## ICRA 2026 Workshop
+<div class="project-hero-media">
+  <video autoplay loop muted playsinline>
+    <source src="../media/mapf/srpp_icra2026.mp4" type="video/mp4">
+  </video>
+</div>
+
 <div class="project-hero-media">
   <!-- <img src="../media/mapf/mapf_sim.gif" alt="GIF simulazione warehouse"> -->
   <!-- Optional MP4 version for future tests.-->
