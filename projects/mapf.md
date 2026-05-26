@@ -10,12 +10,10 @@ title: Multi-Robot Coordination in Dynamic Warehouses
 
 # Multi-Robot Coordination for Dynamic Warehouses
 
+## ICRA 2026 Workshop
 <div class="project-hero-media">
-  <!-- <img src="../media/mapf/mapf_sim.gif" alt="Warehouse simulation GIF"> -->
-  <!-- Optional MP4 version for future tests.
-  -->
   <video autoplay loop muted playsinline>
-    <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
+    <source src="../media/mapf/srpp_icra2026.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -24,6 +22,17 @@ title: Multi-Robot Coordination in Dynamic Warehouses
 This project is the main research direction of my PhD and focuses on scalable, robust, and flexible coordination of robot fleets in dynamic warehouse environments.
 
 I designed and developed a complete C++ simulation framework integrated with ROS2 and CoppeliaSim, with support for event-based and periodically triggered planning strategies. The goal is to study lifelong multi-robot path planning under realistic operational conditions, where goals change online, robots may experience execution errors, and the environment is not static.
+
+<div class="project-hero-media">
+  <!-- <img src="../media/mapf/mapf_sim.gif" alt="Warehouse simulation GIF"> -->
+  <!-- Optional MP4 version for future tests.
+  -->
+  <!-- <video class="scroll-video" loop muted playsinline preload="metadata"> --> <!-- Executed when page on scroll -->
+  <!-- <video class="click-video" loop muted playsinline preload="metadata"> --> <!-- Executed when video clicked -->
+  <video autoplay loop muted playsinline> <!-- Automatic execution in loop -->
+    <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
+  </video>
+</div>
 
 ## My role
 
