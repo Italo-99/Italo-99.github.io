@@ -25,17 +25,21 @@ This project is the main research direction of my PhD and focuses on scalable, r
 
 I designed and developed a complete C++ simulation framework integrated with ROS2 and CoppeliaSim, with support for event-based and periodically triggered planning strategies. The goal is to study lifelong multi-robot path planning under realistic operational conditions, where goals change online, robots may experience execution errors, and the environment is not static.
 
-<div class="project-hero-media" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+<div class="project-hero-media gallery-two mapf-video-pair">
   <!-- <img src="../media/mapf/mapf_sim.gif" alt="Warehouse simulation GIF"> -->
   <!-- Optional MP4 version for future tests. -->
   <!-- <video class="scroll-video" loop muted playsinline preload="metadata"> --> <!-- Executed when page on scroll -->
   <!-- <video class="click-video" loop muted playsinline preload="metadata"> --> <!-- Executed when video clicked -->
-  <video autoplay loop muted playsinline style="width: min(100%, 580px); flex: 1 1 420px;"> <!-- Automatic execution in loop -->
-    <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
-  </video>
-  <video autoplay loop muted playsinline style="width: min(100%, 580px); flex: 1 1 420px;">
-    <source src="../media/mapf/mapf_plan.mp4" type="video/mp4">
-  </video>
+  <div class="mapf-sim-crop">
+    <video class="mapf-sim-video" autoplay loop muted playsinline preload="auto"> <!-- Automatic execution in loop -->
+      <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="mapf-plan-crop">
+    <video class="mapf-plan-video" autoplay loop muted playsinline preload="auto">
+      <source src="../media/mapf/mapf_plan.mp4" type="video/mp4">
+    </video>
+  </div>
 </div>
 
 ## My role
@@ -65,7 +69,7 @@ My focus is on making these systems usable in settings where robustness matters 
 
 <div style="text-align: center; margin: 1rem 0 0.5rem 0;">
   <!-- <img src="../media/mapf/mapf_plan.png" alt="Planning snapshot for multi-robot system" style="width: min(70%, 900px); clip-path: inset(0px 20px 20px 30px);"> -->
-  <video autoplay loop muted playsinline style="width: min(70%, 900px);">
+  <video class="mapf-warehouse-video" autoplay loop muted playsinline>
     <source src="../media/mapf/warehouse.mp4" type="video/mp4">
   </video>
 </div>
@@ -75,7 +79,7 @@ My focus is on making these systems usable in settings where robustness matters 
 
 <div style="text-align: center; margin: 1rem 0 0.5rem 0;">
   <!-- <img src="../media/mapf/mapf_coppelia.png" alt="Warehouse simulation in CoppeliaSim" style="width: min(88%, 1200px);"> -->
-  <video autoplay loop muted playsinline style="width: min(88%, 1200px);">
+  <video class="mapf-fullwidth-video" autoplay loop muted playsinline>
     <source src="../media/mapf/mapf_coppelia.mp4" type="video/mp4">
   </video>
 </div>

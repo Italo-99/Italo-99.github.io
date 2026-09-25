@@ -25,15 +25,19 @@ Questo progetto rappresenta la principale direzione di ricerca del mio PhD e si 
 
 Ho progettato e sviluppato un framework completo in C++ integrato con ROS2 e CoppeliaSim, con supporto a strategie di pianificazione event-based e periodiche. L'obiettivo è studiare il coordinamento multi-robot in condizioni operative realistiche, dove i goal cambiano online, i robot possono subire errori di esecuzione e l'ambiente non è statico.
 
-<div class="project-hero-media" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
+<div class="project-hero-media gallery-two mapf-video-pair">
   <!-- <img src="../media/mapf/mapf_sim.gif" alt="GIF simulazione warehouse"> -->
   <!-- Optional MP4 version for future tests. -->
-  <video autoplay loop muted playsinline style="width: min(100%, 580px); flex: 1 1 420px;">
-    <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
-  </video>
-  <video autoplay loop muted playsinline style="width: min(100%, 580px); flex: 1 1 420px;">
-    <source src="../media/mapf/mapf_plan.mp4" type="video/mp4">
-  </video>
+  <div class="mapf-sim-crop">
+    <video class="mapf-sim-video" autoplay loop muted playsinline preload="auto">
+      <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="mapf-plan-crop">
+    <video class="mapf-plan-video" autoplay loop muted playsinline preload="auto">
+      <source src="../media/mapf/mapf_plan.mp4" type="video/mp4">
+    </video>
+  </div>
 </div>
 
 ## Il mio ruolo
@@ -58,7 +62,7 @@ Questo lavoro è interamente mio sul piano della progettazione di sistema e dell
 <div style="text-align: center; margin: 1rem 0 0.5rem 0;">
   <!-- <img src="../media/mapf/mapf_plan.png" alt="Snapshot del planning multi-robot" style="width: min(70%, 900px);
           clip-path: inset(30px 20px 20px 30px);"> -->
-  <video autoplay loop muted playsinline style="width: min(70%, 900px);">
+  <video class="mapf-warehouse-video" autoplay loop muted playsinline>
     <source src="../media/mapf/warehouse.mp4" type="video/mp4">
   </video>
 </div>
@@ -68,7 +72,7 @@ Questo lavoro è interamente mio sul piano della progettazione di sistema e dell
 
 <div style="text-align: center; margin: 1rem 0 0.5rem 0;">
   <!-- <img src="../media/mapf/mapf_coppelia.png" alt="Simulazione warehouse in CoppeliaSim" style="width: min(88%, 1200px);"> -->
-  <video autoplay loop muted playsinline style="width: min(88%, 1200px);">
+  <video class="mapf-fullwidth-video" autoplay loop muted playsinline>
     <source src="../media/mapf/mapf_coppelia.mp4" type="video/mp4">
   </video>
 </div>
