@@ -10,12 +10,14 @@ title: Multi-Robot Coordination in Dynamic Warehouses
 
 # Multi-Robot Coordination for Dynamic Warehouses
 
+<!--
 ## ICRA 2026 Workshop
 <div class="project-hero-media">
   <video autoplay loop muted playsinline>
     <source src="../media/mapf/srpp_icra2026.mp4" type="video/mp4">
   </video>
 </div>
+-->
 
 ## Project Overview
 
@@ -23,14 +25,16 @@ This project is the main research direction of my PhD and focuses on scalable, r
 
 I designed and developed a complete C++ simulation framework integrated with ROS2 and CoppeliaSim, with support for event-based and periodically triggered planning strategies. The goal is to study lifelong multi-robot path planning under realistic operational conditions, where goals change online, robots may experience execution errors, and the environment is not static.
 
-<div class="project-hero-media">
+<div class="project-hero-media" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem;">
   <!-- <img src="../media/mapf/mapf_sim.gif" alt="Warehouse simulation GIF"> -->
-  <!-- Optional MP4 version for future tests.
-  -->
+  <!-- Optional MP4 version for future tests. -->
   <!-- <video class="scroll-video" loop muted playsinline preload="metadata"> --> <!-- Executed when page on scroll -->
   <!-- <video class="click-video" loop muted playsinline preload="metadata"> --> <!-- Executed when video clicked -->
-  <video autoplay loop muted playsinline> <!-- Automatic execution in loop -->
+  <video autoplay loop muted playsinline style="width: min(100%, 580px); flex: 1 1 420px;"> <!-- Automatic execution in loop -->
     <source src="../media/mapf/mapf_sim.mp4" type="video/mp4">
+  </video>
+  <video autoplay loop muted playsinline style="width: min(100%, 580px); flex: 1 1 420px;">
+    <source src="../media/mapf/mapf_plan.mp4" type="video/mp4">
   </video>
 </div>
 
@@ -60,14 +64,20 @@ Most demonstrations of multi-robot planning look strong in controlled conditions
 My focus is on making these systems usable in settings where robustness matters as much as nominal optimality. That means building algorithms and software that keep working when the environment changes, not only when the benchmark stays clean.
 
 <div style="text-align: center; margin: 1rem 0 0.5rem 0;">
-  <img src="../media/mapf/mapf_plan.png" alt="Planning snapshot for multi-robot system" style="width: min(70%, 900px); clip-path: inset(0px 20px 20px 30px);">
+  <!-- <img src="../media/mapf/mapf_plan.png" alt="Planning snapshot for multi-robot system" style="width: min(70%, 900px); clip-path: inset(0px 20px 20px 30px);"> -->
+  <video autoplay loop muted playsinline style="width: min(70%, 900px);">
+    <source src="../media/mapf/warehouse.mp4" type="video/mp4">
+  </video>
 </div>
 <p style="text-align: center;">
-  Trajectories planned on a roadmap-based warehouse environment for multiple agents.
+  Warehouse simulation with multiple robots operating in a shared environment.
 </p>
 
 <div style="text-align: center; margin: 1rem 0 0.5rem 0;">
-  <img src="../media/mapf/mapf_coppelia.png" alt="Warehouse simulation in CoppeliaSim" style="width: min(88%, 1200px);">
+  <!-- <img src="../media/mapf/mapf_coppelia.png" alt="Warehouse simulation in CoppeliaSim" style="width: min(88%, 1200px);"> -->
+  <video autoplay loop muted playsinline style="width: min(88%, 1200px);">
+    <source src="../media/mapf/mapf_coppelia.mp4" type="video/mp4">
+  </video>
 </div>
 <p style="text-align: center;">
   CoppeliaSim simulation of four robots in a warehouse-like environment.

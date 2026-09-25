@@ -206,7 +206,7 @@ description: Portfolio di robotica - sistemi multi-robot, manipolazione, control
 <div class="link-pills">
   <a href="https://www.linkedin.com/in/italo-almirante-62431a216/">LinkedIn</a>
   <a href="https://github.com/Italo-99">GitHub</a>
-  <a href="https://scholar.google.com/citations?user=Ap9R8foAAAAJ">Google Scholar</a>
+  <a href="https://scholar.google.com/citations?user=-QQGmGcAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
   <a href="https://www.arscontrol.unimore.it/italo-almirante/">ARS Control Lab</a>
   <!-- <a href="https://projectred.it/">ProjectRED</a> -->
   <a href="https://www.dismi.unimore.it/it/didattica/progetti-gli-studenti/project-red">ProjectRED</a>

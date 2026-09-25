@@ -18,6 +18,15 @@ title: Publications
   </p>
   <div class="link-pills">
     <a href="https://doi.org/10.3390/en16196885">DOI</a>
-    <a href="https://scholar.google.com/citations?user=Ap9R8foAAAAJ">Google Scholar</a>
+    <a href="https://scholar.google.com/citations?user=-QQGmGcAAAAJ&amp;hl=en&amp;oi=ao">Google Scholar</a>
+  </div>
+</div>
+
+<div class="feature-card publication-card">
+  <h3>SRPP: Safe Rescheduled Prioritized Planning Framework for Multi-Agent Path Finding</h3>
+  <p><strong>Venue:</strong> <em>ICRA 2026 Workshop on Multi-Agent Robotic Systems: Real-World Collaboration and Interaction</em>, 2026</p>
+  <p>Italo Almirante, Andrea Pupa, Valerio Digani, and Cristian Secchi.</p>
+  <div class="link-pills">
+    <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=-QQGmGcAAAAJ&amp;citation_for_view=-QQGmGcAAAAJ:d1gkVwhDpl0C">Google Scholar</a>
   </div>
 </div>
